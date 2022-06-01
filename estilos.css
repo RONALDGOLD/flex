@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    justify-content:space-around;
+    font-size: 45;
+    align-items: flex-end;
+}
+.columna{
+    background: red;
+    width: 100px;
+}
+.columna:nth-child(1){
+    height: 300px;
+}
+.columna:nth-child(2){
+    height: 350px;
+}
+.columna:nth-child(3){
+    height: 400px;
+}
+.columna:nth-child(4){
+    height: 450px;
+}
+.columna:nth-child(even) {
+ background-color: greenyellow;
+}
+.columna:nth-child(odd) {
+    background-color: yellow;
+   }
+
+.contenedor2 .columna {
+    float: left;
+}
